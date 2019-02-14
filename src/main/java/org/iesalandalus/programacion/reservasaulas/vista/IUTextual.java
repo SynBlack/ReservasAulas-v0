@@ -22,7 +22,6 @@ public class IUTextual {
 
 	public IUTextual() {
 		modelo = new ModeloReservasAulas();
-		// Pasamos la instancia de esta clase al enumerado Opcion
 		Opcion.setVista(this);
 	}
 

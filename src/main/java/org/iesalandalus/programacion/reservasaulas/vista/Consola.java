@@ -13,7 +13,10 @@ import org.iesalandalus.programacion.utilidades.Entrada;
  */
 public class Consola {
 	private static final DateTimeFormatter FORMATO_DIA = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+	private static final String NOMBRE_VALIDO = "[a-zA-ZáéíóúÁÉÍÓÚñÑ]+";
+	private static final String CORREO_VALIDO = "\\w[\\.\\w+]*@\\w+\\.\\w+";
 
+	
 	private Consola() {
 	}
 
